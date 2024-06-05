@@ -12,6 +12,10 @@ using System;
 
 namespace Presentation.Tests.Views.Products.Tests;
 
+public class CreateTests {
+    
+}
+/*
 public class CreateTests : IDisposable
 {
     private readonly IWebDriver _driver;
@@ -27,7 +31,7 @@ public class CreateTests : IDisposable
         _createPage.Navigate();
     }
 
-    /*
+  
     [Fact]
     public void Create_WhenExecuted_ReturnsCreateView()
     {
@@ -58,6 +62,6 @@ public class CreateTests : IDisposable
     {
         _driver.Quit();
         _driver.Dispose();
-    }
-    */
+    }    
 }
+*/
