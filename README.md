@@ -66,6 +66,9 @@ A streamlined GitHub Actions workflow is included to automate:
 
 This ensures code quality, reliability, and architectural integrity across the entire solution.
 
+<img width="820" height="880" alt="Captura de pantalla (271)" src="https://github.com/user-attachments/assets/7611cfe8-ac4b-4cd7-a189-8e0d97092697" />
+
+
 ---
 
 ## Using the Template via `dotnet new`
