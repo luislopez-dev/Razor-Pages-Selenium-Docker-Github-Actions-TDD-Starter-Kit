@@ -69,6 +69,8 @@ Incluye un workflow optimizado que automatiza:
 
 Garantizando calidad, confiabilidad e integridad arquitectónica en toda la solución.
 
+<img width="820" height="880" alt="Captura de pantalla (271)" src="https://github.com/user-attachments/assets/7611cfe8-ac4b-4cd7-a189-8e0d97092697" />
+
 ---
 
 ## Usando la Plantilla con `dotnet new`
