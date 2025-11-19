@@ -11,11 +11,16 @@ Esta plantilla proporciona una estructura limpia y extensible que acelera el des
 
 ---
 
+[![Architecture Template Demo](https://img.youtube.com/vi/mJzvkAc4cLI/0.jpg)](https://www.youtube.com/watch?v=mJzvkAc4cLI)
+
+
+---
+
 ## Visión General de la Arquitectura
 
 La solución está organizada en capas independientes y claramente definidas, diseñadas para reforzar la separación de responsabilidades, la testabilidad y la mantenibilidad a gran escala:
 
-<img width="820" height="880" alt="Captura de pantalla (271)" src="https://github.com/user-attachments/assets/7611cfe8-ac4b-4cd7-a189-8e0d97092697" />
+<img width="750" height="400" alt="enterprise-dotnet-architecture" src="https://github.com/user-attachments/assets/e106d323-4e53-4085-9be0-af0e9a09146c" />
 
 ### **Presentation**
 Gestiona los endpoints de la API, modelos de request/response, controladores y preocupaciones transversales relacionadas con las solicitudes HTTP.
@@ -138,14 +143,9 @@ Puedes contactarme en:
 
 ---
 
-## Video Demostrativo
-
-[![Architecture Template Demo](https://img.youtube.com/vi/mJzvkAc4cLI/0.jpg)](https://www.youtube.com/watch?v=mJzvkAc4cLI)
-
----
-
-## Creado y mantenido por [Luis López](https://github.com/luislopez-dev)
-
----
-
 ## Construye bases sólidas. Entrega sistemas escalables.
+
+---
+
+### Creado y mantenido por [Luis López](https://github.com/luislopez-dev)
+
