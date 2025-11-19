@@ -71,23 +71,6 @@ This ensures code quality, reliability, and architectural integrity across the e
 
 <img width="820" height="880" alt="Captura de pantalla (271)" src="https://github.com/user-attachments/assets/7611cfe8-ac4b-4cd7-a189-8e0d97092697" />
 
-
----
-
-## Using the Template via `dotnet new`
-
-This architecture template is also available as a **.NET project template on NuGet**, allowing you to scaffold a complete enterprise-grade solution with a single command.
-
-### **Install the Template**
-```bash
-
-dotnet new install Enterprise.Architecture.Template
-
-dotnet new enterprise-architecture -n YourProjectName
-
-
-```
-
 ---
 
 ## Key Principles
