@@ -5,6 +5,20 @@
 
 Una base arquitectónica robusta y de nivel empresarial, impulsada por Arquitectura Limpia, con componentes .NET modulares, escalables y completamente testeables — diseñada por [Luis López](https://github.com/luislopez-dev).
 
+
+# Tabla de contenidos
+
+* [Introducción](#introducción)
+* [Visión General de la Arquitectura](#visión-general-de-la-arquitectura)
+* [Estructura Orientada a Pruebas (TDD)](#estructura-orientada-a-pruebas)
+* [Listo para DevOps & Automatización](#listo-para-devops--automatización)
+* [Principios Clave](#principios-clave)
+* [Ideal Para](#ideal-para)
+* [Por Qué Existe Esta Plantilla](#por-qué-existe-esta-plantilla)
+
+
+## Introducción
+
 Esta plantilla proporciona una estructura limpia y extensible que acelera el desarrollo de **sistemas corporativos internos y software empresarial crítico empresarial**.
 
 **Si encuentras valiosa esta arquitectura, porfavor considera apoyarla con una estrella ⭐. Tu apoyo me motiva a seguir mejorándola e incorporando nuevas capacidades y funcionalidades de nivel empresarial.**
