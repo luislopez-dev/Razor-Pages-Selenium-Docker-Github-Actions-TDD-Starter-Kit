@@ -37,7 +37,7 @@ The solution is organized into independent, clearly-defined layers, each designe
 
 
 ### **Presentation**
-Handles API endpoints, request/response models, controllers, and cross-cutting concerns related to delivery.
+Handles API endpoints, Views, request/response models, controllers, and cross-cutting concerns related to delivery.
 
 ### **Application**
 Contains the core use cases, business rules, application logic and orchestration.
