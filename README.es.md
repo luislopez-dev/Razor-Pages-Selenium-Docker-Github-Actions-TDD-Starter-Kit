@@ -19,16 +19,15 @@ Una base arquitectónica robusta y de nivel empresarial, impulsada por Arquitect
 
 ## Introducción
 
-Esta plantilla proporciona una estructura limpia y extensible que acelera el desarrollo de **sistemas corporativos internos y software empresarial crítico empresarial**.
+Esta plantilla proporciona una estructura limpia y extensible que acelera el desarrollo de **sistemas corporativos internos y software crítico empresarial**.
 
-**Si encuentras valiosa esta arquitectura, porfavor considera apoyarla con una estrella ⭐. Tu apoyo me motiva a seguir mejorándola e incorporando nuevas capacidades y funcionalidades de nivel empresarial.**
+**Si encuentras valiosa esta arquitectura, porfavor considera apoyarla con una estrella ⭐. Tu apoyo me motiva a seguir mejorándola e incorporando nuevas capacidades y funcionalidades.**
 
 ---
 
 ### **Video en Youtube**
 
-[![Architecture Template Demo](https://img.youtube.com/vi/BXW7uFoATsk/0.jpg)](https://www.youtube.com/watch?v=BXW7uFoATsk)
-
+[![Architecture Template Demo](https://img.youtube.com/vi/675Sc0Q_28c/0.jpg)](https://www.youtube.com/watch?v=675Sc0Q_28c)
 
 ---
 
