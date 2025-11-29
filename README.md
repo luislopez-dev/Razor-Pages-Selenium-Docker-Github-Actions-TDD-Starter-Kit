@@ -21,4 +21,4 @@ For a short demonstration, I recorded the following video:
 [Watch on YouTube](https://youtu.be/0nfXpb7OsPA?si=28_t2m6mDIMfSiVw)
 
 ## Future Considerations
-Although the project already provides a practical and functional foundation, the future may include the possibility of adopting a more complete clean architecture and introducing DDD principles if needed to handle more complex scenarios.
+Although the project already provides a practical and functional foundation, the future may include the possibility of adopting clean architecture principles and introducing DDD practices if needed to handle more complex scenarios.
