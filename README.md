@@ -1,5 +1,5 @@
 **Languages:**  
-[🇬🇹 Español](README.md) | [🌎 English](README.es.md)
+[🇬🇹 Español](README.es.md) | [🌎 English](README.md)
 
 ## Enterprise Template for apps in .NET and Razor Pages
 
@@ -23,8 +23,6 @@ For a short demonstration, I recorded the following video:
 [Watch on YouTube](https://youtu.be/0nfXpb7OsPA?si=28_t2m6mDIMfSiVw)
 
 ## Future Considerations
-Although the project already provides a practical and functional foundation, the future may include the possibility of adopting more clean architecture principles and introducing DDD practices if needed to handle more complex scenarios.
-
-If you want to see this evolution, please consider leaving a star ⭐ to support further engineering  improvements.
+Although the project already provides a practical and functional foundation, the future may include the possibility of refactoring de application layer, adopting more clean architecture principles and introducing DDD practices if needed to handle more complex scenarios.
 
 ## Project created and maintained by [Luis López](https://github.com/luislopez-dev)
