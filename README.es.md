@@ -21,7 +21,7 @@ Este proyecto proporciona una base sólida para construir aplicaciones web con R
 <img width="578" height="404" alt="projects-dependency-diagram" src="https://github.com/user-attachments/assets/0764a3f9-4737-4d57-aae4-deaf11605441" />
 
 ## Enfoque de desarrollo
-La solución sigue un flujo de trabajo orientado a TDD, incorporando pruebas unitarias y de integración para validar los componentes clave y garantizar la calidad del código desde las primeras etapas del desarrollo. Además, se implementan pruebas end-to-end utilizando Selenium para verificar flujos críticos de usuario en un entorno de navegador real. Este enfoque ayuda a respaldar ciclos de desarrollo más seguros, predecibles y confiables.
+La solución sigue un flujo de trabajo orientado a TDD, incorporando pruebas unitarias y de integración para validar los componentes clave y garantizar la calidad del código desde las primeras etapas del desarrollo. Además, se implementan pruebas end-to-end utilizando Selenium para verificar flujos críticos de usuario en un entorno de navegador real.
 
 ## Integración continua
 El repositorio incluye un pipeline de CI configurado con GitHub Actions. Este flujo automatiza la ejecución de pruebas y verifica que cada cambio cumpla con los estándares definidos.
