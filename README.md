@@ -1,4 +1,4 @@
-# **Enterprise Template for apps in .NET and Razor Pages**
+# **Enterprise Template for apps in .NET**
 # <sub> Powered by Selenium, CA Principles, TDD, Docker & GitHub Actions </sub>
 
 ## Introduction
@@ -27,7 +27,9 @@ Implements technical details such as data access and external services.
 
 ### Presentation
 
-Contains the Razor Pages and the logic that handles user interaction.
+Contains the Razor Pages and <strong> the logic that handles user interaction.</strong> 
+
+Restful architecture and api endpoints might be introduced in future updates. </strong>
 
 ## Development Approach
 The solution follows a TDD-oriented workflow, incorporating unit and integration tests to validate key components and ensure code quality from the early stages of development. In addition, end-to-end tests are implemented using Selenium to verify critical user flows in a real browser environment.
