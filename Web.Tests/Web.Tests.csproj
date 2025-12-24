@@ -6,11 +6,15 @@
         <Nullable>enable</Nullable>
 
         <IsPackable>false</IsPackable>
+
+        <RootNamespace>Presentation.Tests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.14" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+        <PackageReference Include="Moq" Version="4.20.70" />
+        <PackageReference Include="Selenium.WebDriver" Version="4.21.0" />
+        <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="143.0.7499.4200" />
         <PackageReference Include="xunit" Version="2.4.1" />
         <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -23,8 +27,12 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Domain\Domain.csproj" />
-      <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+      <ProjectReference Include="..\Web\Web.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Views\Invoices\Pages\" />
+      <Folder Include="Views\Invoices\Tests\" />
     </ItemGroup>
 
 </Project>
