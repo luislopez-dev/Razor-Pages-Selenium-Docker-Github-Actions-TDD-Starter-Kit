@@ -2,19 +2,19 @@ FROM docker pull mcr.microsoft.com/dotnet/sdk:9.0 AS build-env
 
 WORKDIR /app
 
-COPY ["Presentation/Presentation.csproj", "Presentation/"]
+COPY ["Web/Web.csproj", "Web/"]
 COPY ["Application/Application.csproj", "Application/"]
 COPY ["Domain/Domain.csproj", "Domain/"]
-COPY ["Infrastructure/Infrastructure.csproj", "Infrastructure/"]
+COPY ["Persistence/Persistence.csproj", "Persistence/"]
 
-RUN dotnet restore "Presentation/Presentation.csproj"
+RUN dotnet restore "Web/Web.csproj"
 RUN dotnet restore "Application/Application.csproj"
 RUN dotnet restore "Domain/Domain.csproj"
-RUN dotnet restore "Infrastructure/Infrastructure.csproj"
+RUN dotnet restore "Persistence/Persistence.csproj"
 
 COPY . ./
 
-WORKDIR "Presentation/"
+WORKDIR "Web/"
 
 RUN dotnet publish -c Release -o out
 
@@ -22,8 +22,8 @@ FROM docker pull mcr.microsoft.com/dotnet/aspnet:9.0
 
 RUN sed -i 's/CipherString = DEFAULT@SECLEVEL=2/CipherString = DEFAULT@SECLEVEL=1/g' /etc/ssl/openssl.cnf
 
-COPY --from=build-env /app/Presentation/out .
+COPY --from=build-env /app/Web/out .
 
-ENTRYPOINT [ "dotnet", "Presentation.dll" ]
+ENTRYPOINT [ "dotnet", "Web.dll" ]
 
 EXPOSE 8080

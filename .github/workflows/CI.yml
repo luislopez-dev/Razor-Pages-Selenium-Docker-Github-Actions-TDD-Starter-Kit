@@ -20,28 +20,28 @@ jobs:
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '10.0.x'
+          dotnet-version: '9.0.x'
       
-      - name: Restore dependencies for Presentation
-        run: dotnet restore "Presentation/Presentation.csproj"
+      - name: Restore dependencies for Web
+        run: dotnet restore "Web/Web.csproj"
 
       - name: Restore dependencies for Application
         run: dotnet restore "Application/Application.csproj"
 
-      - name: Restore dependencies for Infrastructure
-        run: dotnet restore "Infrastructure/Infrastructure.csproj"
+      - name: Restore dependencies for Persistence
+        run: dotnet restore "Persistence/Persistence.csproj"
 
       - name: Restore dependencies for Domain
         run: dotnet restore "Domain/Domain.csproj"
 
-      - name: Restore dependencies for Presentation.Tests
-        run: dotnet restore "Presentation.Tests/Presentation.Tests.csproj"
+      - name: Restore dependencies for Web.Tests
+        run: dotnet restore "Web.Tests/Web.Web.csproj"
 
       - name: Restore dependencies for Application.Tests
         run: dotnet restore "Application.Tests/Application.Tests.csproj"
 
-      - name: Restore dependencies for Infrastructure.Tests
-        run: dotnet restore "Infrastructure.Tests/Infrastructure.Tests.csproj"
+      - name: Restore dependencies for Persistence.Tests
+        run: dotnet restore "Persistence.Tests/Persistence.Tests.csproj"
 
       - name: Restore dependencies for Domain.Tests
         run: dotnet restore "Domain.Tests/Domain.Tests.csproj"
