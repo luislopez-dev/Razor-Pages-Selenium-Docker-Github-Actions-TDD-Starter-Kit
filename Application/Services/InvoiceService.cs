@@ -10,7 +10,7 @@ namespace Application.Services;
 
 
 /// <summary>
-/// APPLICATION SERVICE POR INVOICES
+/// INVOICE APPLICATION SERVICE 
 /// </summary>
 /// <remarks>
 /// Author: Luis López  

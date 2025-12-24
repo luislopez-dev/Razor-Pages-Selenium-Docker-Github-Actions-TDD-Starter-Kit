@@ -4,7 +4,7 @@ using FluentValidation;
 namespace Application.Validations;
 
 /// <summary>
-/// VALIDATIONS FOR INVOICES
+/// VALIDATIONS FOR INVOICE
 /// </summary>
 /// <remarks>
 /// Author: Luis López  

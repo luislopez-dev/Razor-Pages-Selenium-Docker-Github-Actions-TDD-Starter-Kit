@@ -4,7 +4,7 @@ using FluentValidation;
 namespace Application.Validations;
 
 /// <summary>
-/// VALIDATIONS FOR PRODUCTS
+/// VALIDATIONS FOR PRODUCT
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
