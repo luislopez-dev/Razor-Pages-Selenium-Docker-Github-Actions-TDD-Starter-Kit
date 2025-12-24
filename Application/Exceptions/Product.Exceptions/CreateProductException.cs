@@ -1,12 +1,11 @@
 ﻿namespace Application.Exceptions.Product.Exceptions;
 
 /// <summary>
-/// EXCEPTION FOR CREATING PRODUCT
+/// EXCEPTION FOR PRODUCT CREATION
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
-/// Description: Open source project: .NET-Clean-DevOps-Architecture
 /// </remarks>
 public class CreateProductException: BusinessException
 {

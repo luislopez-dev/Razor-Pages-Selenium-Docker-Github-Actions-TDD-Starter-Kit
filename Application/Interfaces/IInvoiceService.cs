@@ -3,12 +3,11 @@
 namespace Application.Interfaces;
 
 /// <summary>
-/// INVOICE SERVICE INTERFACE
+/// INVOICE APPLICATION SERVICE INTERFACE
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
-/// Description: Open source project: .NET-Clean-DevOps-Architecture
 /// </remarks>
 public interface IInvoiceService
 {

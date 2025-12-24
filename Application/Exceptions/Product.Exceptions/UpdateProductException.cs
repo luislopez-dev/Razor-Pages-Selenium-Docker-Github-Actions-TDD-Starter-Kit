@@ -1,12 +1,11 @@
 ﻿namespace Application.Exceptions.Product.Exceptions;
 
 /// <summary>
-/// EXCEPTION FOR UPDATING PRODUCT
+/// EXCEPTION FOR PRODUCT EDITING
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
-/// Description: Open source project: .NET-Clean-DevOps-Architecture
 /// </remarks>
 public class UpdateProductException: BusinessException
 {

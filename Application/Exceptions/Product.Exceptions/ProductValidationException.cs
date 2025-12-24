@@ -3,12 +3,11 @@
 namespace Application.Exceptions.Product.Exceptions;
 
 /// <summary>
-/// EXCEPTION FOR PRODUCT VALIDATION
+/// EXCEPTION FOR PRODUCT 
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
-/// Description: Open source project: .NET-Clean-DevOps-Architecture
 /// </remarks>
 public class ProductValidationException: ValidationException
 {

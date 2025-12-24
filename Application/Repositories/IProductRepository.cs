@@ -8,7 +8,6 @@ namespace Application.Repositories;
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
-/// Description: Open source project: .NET-Clean-DevOps-Architecture
 /// </remarks>
 public interface IProductRepository
 {

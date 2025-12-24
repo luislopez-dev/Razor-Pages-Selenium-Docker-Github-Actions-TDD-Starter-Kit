@@ -12,7 +12,6 @@ namespace Infrastructure.Repositories;
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
-/// Description: Open source project: .NET-Clean-DevOps-Architecture
 /// </remarks>
 internal class InvoiceRepository: IInvoiceRepository
 {
@@ -52,5 +51,5 @@ internal class InvoiceRepository: IInvoiceRepository
 /*
  ** Author: Luis René López
  ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
+ ** 
  */

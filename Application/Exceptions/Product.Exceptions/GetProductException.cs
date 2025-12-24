@@ -1,12 +1,11 @@
 ﻿namespace Application.Exceptions.Product.Exceptions;
 
 /// <summary>
-/// EXCEPTION FOR GETTING PRODUCT
+///  Occurs during product retrieval.
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
-/// Description: Open source project: .NET-Clean-DevOps-Architecture
 /// </remarks>
 public class GetProductException: BusinessException
 {
