@@ -1,9 +1,9 @@
-# **Enterprise Template for apps in .NET**
+# **Enterprise Software & DevOps Architecture for apps in .NET**
 # <sub> Powered by Selenium, CA Principles, TDD, Docker & GitHub Actions </sub>
 
 ## Introduction
 
-This project provides a solid foundation for building web applications with integrated DevOps tools out of the box. Its goal is to provide a clear and maintainable starting point that can grow without complications. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
+This project provides a solid foundation for building web applications with integrated DevOps tools out of the box. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
 
 ## Structure
 
@@ -32,8 +32,7 @@ The repositories in this template could be refactored through a generic reposito
 
 ### Presentation
 
-Contains the Razor Pages and <strong> the logic that handles user interaction.</strong>
-
+<strong>Contains the logic that handles user interaction.</strong>
 
 ## Business Logic
 
