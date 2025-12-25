@@ -38,7 +38,7 @@ The repositories in this template could be refactored through a generic reposito
 
 ## DevOps
 
-The repository includes a CI pipeline built with GitHub Actions. This workflow automates test execution and verifies that every change meets the defined standards. 
+The repository includes a CI pipeline built with GitHub Actions. This workflow automates test execution and verifies that every change meets the defined standards. The pipeline additionally containerizes the project with Docker and deploys the resulting image to Docker Hub.
 
 <img width="902" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/f614ae39-3be4-493f-9483-d5f1c41de957" />
 
