@@ -1,5 +1,8 @@
 # **Software & DevOps Architecture in .NET**
+
 # <sub> Powered by Selenium, CA Principles, TDD, Docker & GitHub Actions </sub>
+
+# <sub> Engineered by [Luis René López](https://github.com/luislopez-dev) </sub>
 
 ## Introduction
 
